@@ -1,0 +1,73 @@
+* {
+	margin: 0;
+}
+
+body {
+	background-color: rgb(230, 230, 230);
+}
+
+h1 {
+	color: white;
+	font-size: 4em;
+	position: fixed;
+	top: 10%;
+	left: 350px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav .btn-burger-menu {
+	width: 70px;
+	margin: 0;
+}
+
+img {
+	margin: 0;
+	padding: 0;
+}
+
+.nav-main {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: max-content;
+}
+.nav-main ul {
+	list-style-type: none;
+	padding: 1px 2px 2px 2px;
+}
+
+.nav-content {
+	width: 300px;
+	background-color: #000;
+	transform: translateX(-300px);
+}
+
+.nav-content li {
+	margin-top: 2px;
+}
+.nav-content ul li a {
+	display: block;
+	padding: 20px 20px;
+	text-decoration: none;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: #000000;
+}
+.nav-content ul li:hover {
+	opacity: 0.95;
+}
+
+.home-background {
+	background-color: rgb(230, 230, 230);
+}
+.paars-background {
+	background-color: purple;
+}
+.blauwpaars-background {
+	background-color: blueviolet;
+}
+.magenta-background {
+	background-color: magenta;
+}
+.violet-background {
+	background-color: violet;
+}
